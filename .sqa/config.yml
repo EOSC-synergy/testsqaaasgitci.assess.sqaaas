@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.com/PalomoIFCA/testsqaaasgitci git:
         commands:
-        - /usr/bin/env sh .sqa/script.burgundy_helpful_kirin.sh
-        container: qc.acc_reef_spontaneous_catfish
+        - /usr/bin/env sh .sqa/script.periwinkle_bubbly_tortoise.sh
+        container: qc.acc_pink_grateful_puffin
   QC.Doc:
     repos:
       gitlab.com/PalomoIFCA/testsqaaasgitci find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dusk_curious_dragonfly.sh
-        container: qc.doc_beige_gentle_badger
+        - /usr/bin/env sh .sqa/script.vermilion_sad_cougar.sh
+        container: qc.doc_ceru_generous_albatross
       gitlab.com/PalomoIFCA/testsqaaasgitci git:
         commands:
-        - /usr/bin/env sh .sqa/script.prussian_unique_stingray.sh
-        container: qc.doc_crimson_meticulous_caiman
+        - /usr/bin/env sh .sqa/script.rosewater_practical_lionfish.sh
+        container: qc.doc_alabaster_gentle_gibbon
       gitlab.com/PalomoIFCA/testsqaaasgitci markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wave_careful_dhole.sh
-        container: qc.doc_pine_content_donkey
+        - /usr/bin/env sh .sqa/script.peony_melancholy_porpoise.sh
+        container: qc.doc_pearl_methodical_raven
   QC.Lic:
     repos:
       gitlab.com/PalomoIFCA/testsqaaasgitci licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.verdant_resourceful_rattlesnake.sh
-        container: qc.lic_salmon_amused_crow
+        - /usr/bin/env sh .sqa/script.marina_dramatic_crocodile.sh
+        container: qc.lic_pansy_tranquil_camel
   QC.Sec:
     repos:
       gitlab.com/PalomoIFCA/testsqaaasgitci bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.khaki_pensive_eel.sh
-        container: qc.sec_glacier_fierce_cheetah
+        - /usr/bin/env sh .sqa/script.peach_candid_elk.sh
+        container: qc.sec_red_proactive_clownfish
   QC.Sty:
     repos:
       gitlab.com/PalomoIFCA/testsqaaasgitci flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.peony_proactive_alligator.sh
-        container: qc.sty_eggplant_methodical_donkey
+        - /usr/bin/env sh .sqa/script.alabaster_cranky_hornbill.sh
+        container: qc.sty_flint_mindful_hawk
   QC.Uni:
     repos:
       gitlab.com/PalomoIFCA/testsqaaasgitci pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.iris_mischievous_badger.sh
-        container: qc.uni_periwinkle_shrewd_caribou
+        - /usr/bin/env sh .sqa/script.incarnadine_bewildered_termite.sh
+        container: qc.uni_mustard_analytical_condor
   QC.Ver:
     repos:
       gitlab.com/PalomoIFCA/testsqaaasgitci get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grape_warm_otter.sh
-        container: qc.ver_puce_outgoing_elk
+        - /usr/bin/env sh .sqa/script.purple_nervous_bullfrog.sh
+        container: qc.ver_nutmeg_stoic_cheetah
 timeout: 5400
