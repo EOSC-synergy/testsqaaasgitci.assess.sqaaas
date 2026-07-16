@@ -3,14 +3,14 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/testsqaaasgitci.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/testsqaaasgitci.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1784184214.0012078
+        "timestamp": 1784185378.9636624
     },
     "repository": [
         {
             "url": "https://gitlab.com/PalomoIFCA/testsqaaasgitci",
             "name": "PalomoIFCA/testsqaaasgitci",
             "tag": "main",
-            "commit_id": "4acf2bbc77625917e5da6313c23712233322fb69",
+            "commit_id": "8203e6241e1b55fbc580ffb5d4e952e84cef390d",
             "is_main_repo": true,
             "badge_status": "no_badge"
         }
@@ -46,7 +46,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -98,7 +98,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 6034}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -149,7 +149,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 6034}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -201,7 +201,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 6034}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -250,7 +250,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -292,7 +292,7 @@
                                         "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md012---multiple-consecutive-blank-lines\"},{\"filename\":\"./README.md\",\"line\":4,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md012---multiple-consecutive-blank-lines\"},{\"filename\":\"./README.md\",\"line\":7,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":9,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":13,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":14,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":40,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":49,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":53,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":59,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":62,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":65,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":68,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":71,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":74,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":77,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":80,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":82,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":84,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":93,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":55,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":58,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":61,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":64,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":67,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":70,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":73,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":76,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":79,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":86,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":89,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":92,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":47,\"rule\":\"MD025\",\"aliases\":[\"single-h1\"],\"description\":\"Multiple top level headers in the same document\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md025---multiple-top-level-headers-in-the-same-document\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -401,7 +401,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"For open source projects, say how it is licensed.\",\"content_hash\":\"7efe3cebb2ce64d95a4188520de409d2320ffaaf\",\"content_normalized\":\"for open source projects, say how it is licensed.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -484,7 +484,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"For open source projects, say how it is licensed.\",\"content_hash\":\"7efe3cebb2ce64d95a4188520de409d2320ffaaf\",\"content_normalized\":\"for open source projects, say how it is licensed.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -567,7 +567,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"For open source projects, say how it is licensed.\",\"content_hash\":\"7efe3cebb2ce64d95a4188520de409d2320ffaaf\",\"content_normalized\":\"for open source projects, say how it is licensed.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -650,7 +650,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"For open source projects, say how it is licensed.\",\"content_hash\":\"7efe3cebb2ce64d95a4188520de409d2320ffaaf\",\"content_normalized\":\"for open source projects, say how it is licensed.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -742,8 +742,8 @@
                                     "stdout_command": [
                                         "bandit -f json --quiet  --confidence-level high --severity-level high --recursive  ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2026-07-16T06:41:44Z\",\n  \"metrics\": {\n    \"./hello.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2026-07-16T07:01:31Z\",\n  \"metrics\": {\n    \"./generate_junit.py\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 77,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./hello.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 78,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -755,8 +755,21 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2026-07-16T06:41:44Z",
+                                "generated_at": "2026-07-16T07:01:31Z",
                                 "metrics": {
+                                    "./generate_junit.py": {
+                                        "CONFIDENCE.HIGH": 1,
+                                        "CONFIDENCE.LOW": 0,
+                                        "CONFIDENCE.MEDIUM": 1,
+                                        "CONFIDENCE.UNDEFINED": 0,
+                                        "SEVERITY.HIGH": 0,
+                                        "SEVERITY.LOW": 2,
+                                        "SEVERITY.MEDIUM": 0,
+                                        "SEVERITY.UNDEFINED": 0,
+                                        "loc": 77,
+                                        "nosec": 0,
+                                        "skipped_tests": 0
+                                    },
                                     "./hello.py": {
                                         "CONFIDENCE.HIGH": 0,
                                         "CONFIDENCE.LOW": 0,
@@ -771,15 +784,15 @@
                                         "skipped_tests": 0
                                     },
                                     "_totals": {
-                                        "CONFIDENCE.HIGH": 0,
+                                        "CONFIDENCE.HIGH": 1,
                                         "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
+                                        "CONFIDENCE.MEDIUM": 1,
                                         "CONFIDENCE.UNDEFINED": 0,
                                         "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
+                                        "SEVERITY.LOW": 2,
                                         "SEVERITY.MEDIUM": 0,
                                         "SEVERITY.UNDEFINED": 0,
-                                        "loc": 1,
+                                        "loc": 78,
                                         "nosec": 0,
                                         "skipped_tests": 0
                                     }
@@ -798,7 +811,7 @@
             }
         },
         "QC.Sty": {
-            "valid": true,
+            "valid": false,
             "subcriteria": {
                 "QC.Sty01": {
                     "description": "Is the software product following a style standard for Python files?",
@@ -806,8 +819,8 @@
                     "hint": "Please check & solve the security weaknesses found by the linter tool",
                     "evidence": [
                         {
-                            "valid": true,
-                            "message": "Python files are compliant with flake8 (pycodestyle, pyflakes, mccabe) standard",
+                            "valid": false,
+                            "message": "Python files are not fully compliant with flake8 (pycodestyle, pyflakes, mccabe) standard",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-flake8",
                                 "version": "2.1.0"
@@ -826,8 +839,8 @@
                                     "stdout_command": [
                                         "flake8 ."
                                     ],
-                                    "stdout_text": "./hello.py:1:21: W292 no newline at end of file",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/88/log?consoleFull"
+                                    "stdout_text": "./generate_junit.py:23:1: F401 'html' imported but unused\n./generate_junit.py:60:80: E501 line too long (97 > 79 characters)\n./generate_junit.py:68:80: E501 line too long (81 > 79 characters)\n./generate_junit.py:76:80: E501 line too long (83 > 79 characters)\n./generate_junit.py:93:80: E501 line too long (81 > 79 characters)\n./hello.py:1:21: W292 no newline at end of file",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -837,16 +850,17 @@
                                 "version": "v4.0",
                                 "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
                             },
-                            "data_unstructured": "./hello.py:1:21: W292 no newline at end of file"
+                            "data_unstructured": "./generate_junit.py:23:1: F401 'html' imported but unused\n./generate_junit.py:60:80: E501 line too long (97 > 79 characters)\n./generate_junit.py:68:80: E501 line too long (81 > 79 characters)\n./generate_junit.py:76:80: E501 line too long (83 > 79 characters)\n./generate_junit.py:93:80: E501 line too long (81 > 79 characters)\n./hello.py:1:21: W292 no newline at end of file"
                         }
                     ],
-                    "valid": true
+                    "valid": false,
+                    "required_for_next_level_badge": false
                 }
             },
             "coverage": {
-                "percentage": 100,
+                "percentage": 0,
                 "total_subcriteria": 1,
-                "success_subcriteria": 1
+                "success_subcriteria": 0
             }
         },
         "QC.Uni": {
@@ -878,8 +892,8 @@
                                     "stdout_command": [
                                         "pytest  --json-report  --json-report-indent 4"
                                     ],
-                                    "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.1.3, pluggy-1.2.0\nrootdir: /sqaaas-build/gitlab.com/PalomoIFCA/testsqaaasgitci\nplugins: json-report-1.5.0, metadata-3.0.0\ncollected 0 items\n\n--------------------------------- JSON report ----------------------------------\nreport saved to: .report.json\n============================ no tests ran in 0.01s =============================",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/97/log?consoleFull"
+                                    "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.1.3, pluggy-1.2.0\nrootdir: /sqaaas-build/gitlab.com/PalomoIFCA/testsqaaasgitci\nplugins: json-report-1.5.0, metadata-3.0.0\ncollected 0 items\n\n--------------------------------- JSON report ----------------------------------\nreport saved to: .report.json\n============================ no tests ran in 0.00s =============================",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/97/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -932,7 +946,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -975,7 +989,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -1018,7 +1032,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/1/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/2/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -1111,6 +1125,7 @@
                     ],
                     "missing": [
                         "QC.Doc",
+                        "QC.Sty",
                         "QC.Ver",
                         "QC.Uni",
                         "QC.Lic",
@@ -1118,8 +1133,7 @@
                     ],
                     "fulfilled": [
                         "QC.Acc",
-                        "QC.Sec",
-                        "QC.Sty"
+                        "QC.Sec"
                     ]
                 }
             },
