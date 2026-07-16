@@ -1,0 +1,64 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: fix/updatego
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    gitlab.com/PalomoIFCA/testsqaaasgitci:
+      branch: main
+      repo: https://gitlab.com/PalomoIFCA/testsqaaasgitci
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      gitlab.com/PalomoIFCA/testsqaaasgitci git:
+        commands:
+        - /usr/bin/env sh .sqa/script.pumpkin_hopeful_flamingo.sh
+        container: qc.acc_cinnabar_aware_grizzly
+  QC.Doc:
+    repos:
+      gitlab.com/PalomoIFCA/testsqaaasgitci find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.clove_compassionate_orangutan.sh
+        container: qc.doc_wisteria_artistic_wolf
+      gitlab.com/PalomoIFCA/testsqaaasgitci git:
+        commands:
+        - /usr/bin/env sh .sqa/script.zinnia_warm_gull.sh
+        container: qc.doc_rose_open_narwhal
+      gitlab.com/PalomoIFCA/testsqaaasgitci markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.cream_tolerant_viper.sh
+        container: qc.doc_crimson_playful_uakari
+  QC.Lic:
+    repos:
+      gitlab.com/PalomoIFCA/testsqaaasgitci licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.red_resourceful_hedgehog.sh
+        container: qc.lic_crimson_jubilant_wildcat
+  QC.Sec:
+    repos:
+      gitlab.com/PalomoIFCA/testsqaaasgitci bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.papaya_reflective_rattlesnake.sh
+        container: qc.sec_chili_unique_barracuda
+  QC.Sty:
+    repos:
+      gitlab.com/PalomoIFCA/testsqaaasgitci flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.espresso_tranquil_echidna.sh
+        container: qc.sty_butterscotch_zany_antelope
+  QC.Uni:
+    repos:
+      gitlab.com/PalomoIFCA/testsqaaasgitci pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.persimmon_reliable_hornbill.sh
+        container: qc.uni_banana_bold_nymph
+  QC.Ver:
+    repos:
+      gitlab.com/PalomoIFCA/testsqaaasgitci get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.turquoise_serene_reindeer.sh
+        container: qc.ver_flint_trustworthy_hummingbird
+timeout: 5400
