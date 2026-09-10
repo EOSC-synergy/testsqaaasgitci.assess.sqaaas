@@ -3,14 +3,14 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/testsqaaasgitci.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/testsqaaasgitci.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1784532231.9596102
+        "timestamp": 1789023108.281284
     },
     "repository": [
         {
             "url": "https://gitlab.com/PalomoIFCA/testsqaaasgitci",
             "name": "PalomoIFCA/testsqaaasgitci",
             "tag": "main",
-            "commit_id": "40a28c3c434d4b12dc1157b0df9f0280f8617c99",
+            "commit_id": "41aecf91a3b5823bb22e68638cf8101a37c08a41",
             "is_main_repo": true,
             "badge_status": "no_badge"
         }
@@ -46,7 +46,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -97,8 +97,8 @@
                                     "stdout_command": [
                                         "find_doc_files.py --file_type all"
                                     ],
-                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 60}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/43/log?consoleFull"
+                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 79}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -112,7 +112,7 @@
                                 "README": [
                                     {
                                         "file_name": "README.md",
-                                        "size": 60
+                                        "size": 79
                                     }
                                 ],
                                 "CODE_OF_CONDUCT": [],
@@ -148,8 +148,8 @@
                                     "stdout_command": [
                                         "find_doc_files.py --file_type all"
                                     ],
-                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 60}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/43/log?consoleFull"
+                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 79}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -163,7 +163,7 @@
                                 "README": [
                                     {
                                         "file_name": "README.md",
-                                        "size": 60
+                                        "size": 79
                                     }
                                 ],
                                 "CODE_OF_CONDUCT": [],
@@ -200,8 +200,8 @@
                                     "stdout_command": [
                                         "find_doc_files.py --file_type all"
                                     ],
-                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 60}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/43/log?consoleFull"
+                                    "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 79}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -215,7 +215,7 @@
                                 "README": [
                                     {
                                         "file_name": "README.md",
-                                        "size": 60
+                                        "size": 79
                                     }
                                 ],
                                 "CODE_OF_CONDUCT": [],
@@ -250,7 +250,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -292,7 +292,7 @@
                                         "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md012---multiple-consecutive-blank-lines\"},{\"filename\":\"./README.md\",\"line\":4,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md012---multiple-consecutive-blank-lines\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -355,7 +355,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[],\"matched_files\":[]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -401,7 +401,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[],\"matched_files\":[]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -447,7 +447,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[],\"matched_files\":[]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -493,7 +493,7 @@
                                         "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[],\"matched_files\":[]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -548,8 +548,8 @@
                                     "stdout_command": [
                                         "bandit -f json --quiet  --confidence-level high --severity-level high --recursive  ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2026-07-20T07:22:25Z\",\n  \"metrics\": {\n    \"./ci/generate_junit.py\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 164,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./hello.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 165,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2026-09-10T06:49:58Z\",\n  \"metrics\": {\n    \"./ci/generate_junit.py\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 164,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./hello.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 165,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -561,7 +561,7 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2026-07-20T07:22:25Z",
+                                "generated_at": "2026-09-10T06:49:58Z",
                                 "metrics": {
                                     "./ci/generate_junit.py": {
                                         "CONFIDENCE.HIGH": 1,
@@ -646,7 +646,7 @@
                                         "flake8 ."
                                     ],
                                     "stdout_text": "./ci/generate_junit.py:98:80: E501 line too long (86 > 79 characters)\n./ci/generate_junit.py:102:80: E501 line too long (88 > 79 characters)\n./ci/generate_junit.py:132:80: E501 line too long (88 > 79 characters)\n./ci/generate_junit.py:154:80: E501 line too long (97 > 79 characters)\n./ci/generate_junit.py:162:80: E501 line too long (81 > 79 characters)\n./ci/generate_junit.py:171:80: E501 line too long (90 > 79 characters)\n./ci/generate_junit.py:196:80: E501 line too long (85 > 79 characters)\n./ci/generate_junit.py:200:11: W292 no newline at end of file\n./hello.py:1:21: W292 no newline at end of file",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/88/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -699,7 +699,7 @@
                                         "pytest  --json-report  --json-report-indent 4"
                                     ],
                                     "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.1.3, pluggy-1.2.0\nrootdir: /sqaaas-build/gitlab.com/PalomoIFCA/testsqaaasgitci\nplugins: json-report-1.5.0, metadata-3.0.0\ncollected 0 items\n\n--------------------------------- JSON report ----------------------------------\nreport saved to: .report.json\n============================ no tests ran in 0.01s =============================",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/97/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/97/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -752,7 +752,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -795,7 +795,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -838,7 +838,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/7/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/testsqaaasgitci.assess.sqaaas/job/main/9/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/testsqaaasgitci.assess.sqaaas"
@@ -902,17 +902,17 @@
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Doc",
                         "QC.Acc",
                         "QC.Ver",
                         "QC.Lic",
+                        "QC.Doc",
                         "QC.Met"
                     ],
                     "missing": [
                         "QC.Lic",
                         "QC.Doc",
-                        "QC.Met",
-                        "QC.Ver"
+                        "QC.Ver",
+                        "QC.Met"
                     ],
                     "fulfilled": [
                         "QC.Acc"
@@ -920,21 +920,21 @@
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Doc",
                         "QC.Acc",
                         "QC.Sty",
                         "QC.Ver",
-                        "QC.Sec",
                         "QC.Uni",
+                        "QC.Sec",
                         "QC.Lic",
+                        "QC.Doc",
                         "QC.Met"
                     ],
                     "missing": [
-                        "QC.Doc",
                         "QC.Sty",
                         "QC.Ver",
                         "QC.Uni",
                         "QC.Lic",
+                        "QC.Doc",
                         "QC.Met"
                     ],
                     "fulfilled": [
