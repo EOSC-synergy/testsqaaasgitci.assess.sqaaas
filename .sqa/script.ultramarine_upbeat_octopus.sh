@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd gitlab.com/PalomoIFCA/testsqaaasgitci &&
-    bandit -f json --quiet  --confidence-level high --severity-level high --recursive  .
+cd gitlab.acnca.pt/palomoIFCA/testsqaaasgitci &&
+    git rev-parse --is-inside-work-tree 
 )

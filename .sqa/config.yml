@@ -4,61 +4,61 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: fix/updatego
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    gitlab.com/PalomoIFCA/testsqaaasgitci:
+    gitlab.acnca.pt/palomoIFCA/testsqaaasgitci:
       branch: main
-      repo: https://gitlab.com/PalomoIFCA/testsqaaasgitci
+      repo: https://gitlab.acnca.pt/palomoIFCA/testsqaaasgitci
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
-      gitlab.com/PalomoIFCA/testsqaaasgitci git:
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci git:
         commands:
-        - /usr/bin/env sh .sqa/script.frost_peaceful_orca.sh
-        container: qc.acc_glacier_melancholy_elk
+        - /usr/bin/env sh .sqa/script.ultramarine_upbeat_octopus.sh
+        container: qc.acc_tan_enthusiastic_clownfish
   QC.Doc:
     repos:
-      gitlab.com/PalomoIFCA/testsqaaasgitci find_doc_files.py:
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.turquoise_whimsical_sphinx.sh
-        container: qc.doc_ruby_positive_cormorant
-      gitlab.com/PalomoIFCA/testsqaaasgitci git:
+        - /usr/bin/env sh .sqa/script.cream_careful_thrush.sh
+        container: qc.doc_ceru_graceful_serval
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci git:
         commands:
-        - /usr/bin/env sh .sqa/script.strawberry_calm_spren.sh
-        container: qc.doc_ice_respectful_wombat
-      gitlab.com/PalomoIFCA/testsqaaasgitci markdownlint:
+        - /usr/bin/env sh .sqa/script.walnut_pensive_swan.sh
+        container: qc.doc_rose_restless_jaguar
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cyan_agile_toucan.sh
-        container: qc.doc_mango_rational_jackal
+        - /usr/bin/env sh .sqa/script.gold_reserved_chinchilla.sh
+        container: qc.doc_wisteria_pensive_jaguar
   QC.Lic:
     repos:
-      gitlab.com/PalomoIFCA/testsqaaasgitci licensee:
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.mist_foolish_piranha.sh
-        container: qc.lic_snow_authentic_panda
+        - /usr/bin/env sh .sqa/script.puce_logical_seahorse.sh
+        container: qc.lic_indigo_elated_antelope
   QC.Sec:
     repos:
-      gitlab.com/PalomoIFCA/testsqaaasgitci bandit:
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.lilac_anxious_spren.sh
-        container: qc.sec_purple_lively_jackal
+        - /usr/bin/env sh .sqa/script.verdant_attentive_cassowary.sh
+        container: qc.sec_butter_sweet_kingfisher
   QC.Sty:
     repos:
-      gitlab.com/PalomoIFCA/testsqaaasgitci flake8:
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.tundra_sociable_wildcat.sh
-        container: qc.sty_clementine_romantic_penguin
+        - /usr/bin/env sh .sqa/script.bluebell_cranky_tapir.sh
+        container: qc.sty_mahogany_practical_llama
   QC.Uni:
     repos:
-      gitlab.com/PalomoIFCA/testsqaaasgitci pytest:
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.salmon_sweet_spider.sh
-        container: qc.uni_tundra_imaginative_kookaburra
+        - /usr/bin/env sh .sqa/script.raven_vibrant_ferret.sh
+        container: qc.uni_currant_hopeful_emu
   QC.Ver:
     repos:
-      gitlab.com/PalomoIFCA/testsqaaasgitci get_git_tags.py:
+      gitlab.acnca.pt/palomoIFCA/testsqaaasgitci get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wave_playful_butterfly.sh
-        container: qc.ver_storm_joyful_swan
+        - /usr/bin/env sh .sqa/script.flint_flexible_otter.sh
+        container: qc.ver_maroon_brilliant_echidna
 timeout: 5400
