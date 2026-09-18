@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci git:
         commands:
-        - /usr/bin/env sh .sqa/script.strawberry_loyal_otter.sh
-        container: qc.acc_mulberry_proactive_parrot
+        - /usr/bin/env sh .sqa/script.prussian_zealous_armadillo.sh
+        container: qc.acc_rosewater_attentive_flamingo
   QC.Doc:
     repos:
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.storm_friendly_orangutan.sh
-        container: qc.doc_harlequin_loving_caiman
+        - /usr/bin/env sh .sqa/script.violet_energetic_wolverine.sh
+        container: qc.doc_malachite_jubilant_rhinoceros
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci git:
         commands:
-        - /usr/bin/env sh .sqa/script.storm_agile_moth.sh
-        container: qc.doc_grege_trustworthy_koala
+        - /usr/bin/env sh .sqa/script.marigold_humorous_hedgehog.sh
+        container: qc.doc_sienna_analytical_toad
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.mist_harmonious_alligator.sh
-        container: qc.doc_fog_ardent_mongoose
+        - /usr/bin/env sh .sqa/script.sapphire_practical_caribou.sh
+        container: qc.doc_tangerine_inspired_gnu
   QC.Lic:
     repos:
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.olive_dedicated_giraffe.sh
-        container: qc.lic_lime_relaxed_lemur
+        - /usr/bin/env sh .sqa/script.cinnabar_fearless_chimpanzee.sh
+        container: qc.lic_wave_serene_cassowary
   QC.Sec:
     repos:
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.plum_elated_dingo.sh
-        container: qc.sec_chocolate_patient_hornbill
+        - /usr/bin/env sh .sqa/script.ultramarine_artistic_termite.sh
+        container: qc.sec_cyan_eccentric_okapi
   QC.Sty:
     repos:
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.raspberry_whimsical_stork.sh
-        container: qc.sty_butter_enigmatic_boa
+        - /usr/bin/env sh .sqa/script.lapis_imaginative_hippopotamus.sh
+        container: qc.sty_raspberry_diplomatic_goose
   QC.Uni:
     repos:
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.glacier_independent_quail.sh
-        container: qc.uni_ash_funny_cormorant
+        - /usr/bin/env sh .sqa/script.silver_vibrant_gibbon.sh
+        container: qc.uni_espresso_zany_spren
   QC.Ver:
     repos:
       gitlab.acnca.pt/palomoIFCA/testsqaaasgitci get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.vermilion_perceptive_dugong.sh
-        container: qc.ver_denim_hopeful_gazelle
+        - /usr/bin/env sh .sqa/script.banana_creative_moth.sh
+        container: qc.ver_smoke_motivated_dingo
 timeout: 5400
